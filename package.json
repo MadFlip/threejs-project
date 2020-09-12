@@ -15,7 +15,9 @@
     "webpack-cli": "^3.3.11",
     "webpack-dev-server": "^3.11.0"
   },
-  "dependencies": {},
+  "dependencies": {
+    "websocket-extensions": "^0.1.4"
+  },
   "main": "index.js",
   "description": ""
 }
