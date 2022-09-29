@@ -6,17 +6,23 @@
 			body { margin: 0; }
 			canvas {
         display: block;
-        background: #627d4d;
-        background: -moz-radial-gradient(center, ellipse cover,  #627d4d 0%, #0d2304 100%);
-        background: -webkit-radial-gradient(center, ellipse cover,  #627d4d 0%,#0d2304 100%);
-        background: radial-gradient(ellipse at center,  #627d4d 0%,#0d2304 100%);
-        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#627d4d', endColorstr='#0d2304',GradientType=1 );
+        background: radial-gradient(ellipse at center,  #ab33fc 0%,#380ed3 100%);
         outline: none;
       }
       div { outline: none; }
+      .sss {
+        position: absolute;
+        z-index: 222;
+        width: 10px;
+        height: 10px;
+        left: 0;
+        top: 0;
+        background: #fff;
+      }
 		</style>
   </head>
   <body>
+      <div class="sss"></div>
     <script src="main.js"></script>
   </body>
 </html>

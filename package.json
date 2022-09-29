@@ -17,6 +17,8 @@
   },
   "dependencies": {
     "gsap": "^3.8.0",
+    "lil-gui": "^0.17.0",
+    "lodash": "^4.17.21",
     "websocket-extensions": "^0.1.4"
   },
   "main": "index.js",
